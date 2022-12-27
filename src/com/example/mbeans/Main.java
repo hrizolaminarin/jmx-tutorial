@@ -3,6 +3,9 @@ package com.example.mbeans;
 import java.lang.management.*;
 import javax.management.*;
 
+/**
+ * https://docs.oracle.com/en/java/javase/19/jmx/essentials-jmx-api.html#GUID-41CDE7AB-FEAD-42E0-BCE6-933501B654E2
+ * */
 public class Main {
 
     public static void main(String[] args) throws Exception {
