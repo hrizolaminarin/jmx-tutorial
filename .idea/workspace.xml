@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61c18c8a-103c-4928-a38c-0f77241ff7a6" name="Changes" comment="Added Sending Notification triggered by Managed Bean property update">
-      <change afterPath="$PROJECT_DIR$/src/com/example/mxbeans/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/mxbeans/QueueSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/mxbeans/QueueSampler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/mxbeans/QueueSamplerMXBean.java" afterDir="false" />
+    <list default="true" id="61c18c8a-103c-4928-a38c-0f77241ff7a6" name="Changes" comment="Add MXBean example">
+      <change afterPath="$PROJECT_DIR$/src/com/example/mxbeans/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/mxbeans/DisplayName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/mxbeans/Version.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/mxbeans/QueueSamplerMXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/mxbeans/QueueSamplerMXBean.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -102,12 +103,20 @@
       <option name="project" value="LOCAL" />
       <updated>1672182043378</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add MXBean example">
+      <created>1672236967399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672236967399</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Standard MBeans" />
     <MESSAGE value="Added Sending Notification triggered by Managed Bean property update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Sending Notification triggered by Managed Bean property update" />
+    <MESSAGE value="Add MXBean example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MXBean example" />
   </component>
 </project>
