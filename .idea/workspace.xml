@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61c18c8a-103c-4928-a38c-0f77241ff7a6" name="Changes" comment="Standard MBeans">
+    <list default="true" id="61c18c8a-103c-4928-a38c-0f77241ff7a6" name="Changes" comment="Added Sending Notification triggered by Managed Bean property update">
+      <change afterPath="$PROJECT_DIR$/src/com/example/mxbeans/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/mxbeans/QueueSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/mxbeans/QueueSampler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/mxbeans/QueueSamplerMXBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/mbeans/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/mbeans/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/mbeans/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/mbeans/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +38,14 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.com.example.mxbeans.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.mbeans.Main" />
       <module name="jmx-tutorial" />
@@ -57,8 +59,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.example.mxbeans.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mxbeans.Main" />
+      <module name="jmx-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mxbeans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.example.mxbeans.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -79,11 +95,19 @@
       <option name="project" value="LOCAL" />
       <updated>1672180988977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Sending Notification triggered by Managed Bean property update">
+      <created>1672182043378</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672182043378</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Standard MBeans" />
-    <option name="LAST_COMMIT_MESSAGE" value="Standard MBeans" />
+    <MESSAGE value="Added Sending Notification triggered by Managed Bean property update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Sending Notification triggered by Managed Bean property update" />
   </component>
 </project>
